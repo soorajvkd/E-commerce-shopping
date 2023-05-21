@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoppingCart </title>
+
+    <!--Box Icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+
+    <!--Styles-->
+    <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="wrapper">
+            <div class="nav-container">
+                <h1>
+                    <a href="#"><span>S</span>hoppers</a>
+                </h1>
+                <i class='bx bx-shopping-bag' id="cart-icon" style='color:#ffffff'></i>
+            </div>
+        </div>
+        <!--Add Cart-->
+        <div class="cart">
+            <h2 class="cart-title">My Cart</h2>
+            <div class="cart-content">
+                
+            </div>
+            <div class="total">
+                <div class="total-title">
+                    Total $ <div class="total-price"></div>
+                </div>
+                <!--Buy-Button-->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!--CART CLOSE-->
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+        </div>
+
+    </header>
+
+    <!--ShopContainer-->
+    <section id="shop-container">
+        <div class="wrapper">
+            <div class="title">
+                <h3>Shop Products</h3>
+            </div>
+
+            <ul class="product-container">
+                <li>
+                    <div class="detailes">
+                        <img src="./images/product8.jpg" alt="Image" class="product-img" />
+                        <h2 class="product-title">Nike Shoe</h2>
+                        <span class="product-price">$26.5</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                </li>
+                <li>
+
+                    <div class="detailes">
+                        <img src="./images/product2.jpg" alt="Image" class="product-img" />
+                        <h2 class="product-title"> Wireless Earbuds</h2>
+                        <span class="product-price">$26.5</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                </li>
+                <li>
+
+                    <div class="detailes">
+                        <img src="./images/product3.jpg" alt="Image" class="product-img" />
+                        <h2 class="product-title">Jacket</h2>
+                        <span class="product-price">$119.5</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="detailes">
+                        <img src="./images/product4.jpg" alt="Image" class="product-img" />
+                        <h2 class="product-title">metal bottle</h2>
+                        <span class="product-price">$99.5</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="detailes">
+                        <img src="./images/product5.jpg" alt="Image" class="product-img" />
+                        <h2 class="product-title">Cooling glsaa</h2>
+                        <span class="product-price">$89.9</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="detailes">
+                        <img src="./images/product6.jpg" alt="Image" class="product-img" />
+                        <h2 class="product-title">Adidas cap</h2>
+                        <span class="product-price">$39</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                </li>
+                <li>
+
+                    <div class="detailes">
+                        <img src="./images/product7.jpg" alt="Image" class="product-img" />
+                        <h2 class="product-title">backpack</h2>
+                        <span class="product-price">$12.5</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                <li>
+                    <div class="detailes">
+                        <img src="./images/product1.jpg" alt="Image" class="product-img" />
+                        <h2 class="product-title">T-shirt   </h2>
+                        <span class="product-price">$12.5</span>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    </div>
+                </li>
+            </ul>
+        </div><!--Wrapper > End-->
+    </section><!--#shop-container > End-->
+
+    <!--Script-js-->
+    <script src="./main.js"></script>
+</body>
+
+</html>
